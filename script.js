@@ -9,7 +9,7 @@ function add(){
     innerContainer.appendChild(textContainer);
     // Strike a task 
     var strikeContainer = document.createElement("addbutton");
-    strikeContainer.innerHTML = "&#x2713"; // HTML code for right arrow
+    strikeContainer.innerHTML = "&#x2713"// HTML code for right arrow
     strikeContainer.className = "strike";
     var strike = document.getElementsByClassName("strike");
     innerContainer.appendChild(strikeContainer);
